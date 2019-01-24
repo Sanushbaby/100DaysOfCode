@@ -1,0 +1,51 @@
+﻿html{
+    scroll-behavior:smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.img-layer {
+    width: 60%;
+    height: 110%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background-size: cover;
+    z-index: 0;
+}
+
+.img layer .home-content {
+    margin-top: 60%;
+    width: 120%;
+    margin-left: 40%;
+}
+
+.site-header {
+    position: relative;
+}
+
+.navbar {
+    position: absolute;
+    top: 0%;
+    z-index: 2;
+}
+.gototop
+{
+    position:fixed;
+    width:50px;
+    height:50px;
+    background:#c71a94;
+    bottom:40px;
+    right:50px;
+    text-decoration:none;
+    text-align:center;
+    line-height: 50px;
+    color:white;
+    font-size:22px;
+}
+
